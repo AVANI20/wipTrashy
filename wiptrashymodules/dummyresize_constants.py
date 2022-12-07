@@ -1,0 +1,44 @@
+'''
+Resizing constants for Thung and Yang's trashnet dataset (https://github.com/garythung/trashnet)
+Defines the dimensions to which the images are to be resized in the trashnet_resize.py script
+before being saved in the output directory
+'''
+
+
+BATTERY = 0
+BEVERAGECANS = 1
+BREAD = 2
+CARDBOARD = 3
+CARTONS = 4
+CIGARETTEBUTT = 5
+CONSTRUCTIONSCRAP = 6
+CROCKERY = 7
+DIAPERS = 8
+ELECTRONICDEVICE = 9
+EWASTE = 10
+GLASS = 11
+GLASSBOTTLES = 12
+GLOVES = 13
+LEAFLETS = 14
+LEFTOVERS = 15
+LIGHTBULB = 16
+MASKS = 17
+MEDICINES = 18
+METALCONTAINERS = 19
+NEWSPAPER = 20
+PAPER = 21
+PAPERCUPS = 22
+PENS = 23
+PLASTICBAGS = 24
+PLASTICBOTTLES = 25
+PLASTICCONTAINERS = 26
+PLASTICCUPS = 27
+SMALLAPPLIANCES = 28
+SPRAYCANS = 29
+SYRINGE = 30
+TETRAPAK = 31
+TISSUENAPKIN = 32
+
+
+DIM1 = 384
+DIM2 = 512
