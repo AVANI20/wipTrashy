@@ -83,12 +83,12 @@ def split_train_val_test():
     '''
     
     subsets = ['train','val','test']
-    waste_types = ['battery','beverage cans','cardboard','cigarette butt','construction scrap','crockery','electronic device','ewaste','glass bottles','leaflets','lightbulb','medical','medicines','metal containers','news paper', 'paper','paper cups','pens','plastic bags','plastic bottles','plastic containers','plastic cups','small appliances','tetra pak']
+    waste_types = ['battery','beverage cans','cardboard','cigarette butt','construction scrap','crockery','electronic device','ewaste','glass bottles','leaflets','lightbulb','medical','medicines','metal containers','news paper', 'paper','paper cups','pens','plastic bags','plastic bottles','plastic containers','plastic cups','small appliances','tetra pak', 'syringe']
     
     
-    inBase = "/Users/rohitmaheshwari/Documents/GitHub/wipTrashy/trashydataset"
+    inBase = "/Users/avani/Documents/GitHub/wipTrashy/trashydataset"
     inDataPath = os.path.join(inBase)
-    outBase = "../wipTrashy/wiptrashyTrainTest"
+    outBase = "../wipTrashy/trashyTrainTestVal"
     outDataPath = os.path.join(outBase)
 
 
