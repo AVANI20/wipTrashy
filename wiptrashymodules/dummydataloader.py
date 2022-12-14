@@ -88,7 +88,7 @@ def split_train_val_test():
     
     inBase = "/Users/avani/Documents/GitHub/wipTrashy/trashydataset"
     inDataPath = os.path.join(inBase)
-    outBase = "../wipTrashy/trashyTrainTestVal"
+    outBase = "../wipTrashy/trashyTrainTestVal1"
     outDataPath = os.path.join(outBase)
 
 
